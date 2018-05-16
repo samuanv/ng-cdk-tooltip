@@ -1,0 +1,33 @@
+{
+  "name": "ng-cdk-tooltip",
+  "version": "0.2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuanv/ng-cdk-tooltip.git"
+  },
+  "author": {
+    "name": "Samuel Andreo",
+    "email": "samuanv@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuanv/ng-cdk-tooltip.git/issues"
+  },
+  "main": "ng-cdk-tooltip.umd.js",
+  "module": "ng-cdk-tooltip.js",
+  "jsnext:main": "ng-cdk-tooltip.js",
+  "typings": "ng-cdk-tooltip.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "@angular/animations": "^5.2.0",
+    "@angular/forms": "^5.2.0",
+    "@angular/cdk": "^5.2.0",
+    "@angular/common": "^5.2.0",
+    "@angular/platform-browser": "^4.1.3",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}

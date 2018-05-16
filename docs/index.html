@@ -1,0 +1,426 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ng-cdk-tooltip</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	      <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">ng-cdk-tooltip</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="./index.html" data-type="index-link">ng-cdk-tooltip</a>
+        </li>
+
+        <li class="divider"></li>
+
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                             href="./overview.html" 
+                            
+                             href="./overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="./index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="./modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="modules-links"
+>
+                    <li class="link">
+                        <a href="./modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AppModule-6ecdb49a-a7e7-4e45-a5dc-def9bd53e622"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AppModule-6ecdb49a-a7e7-4e45-a5dc-def9bd53e622"
+>
+                                        <li class="link">
+                                            <a href="./components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="./modules/NgCdkTooltipModule.html" data-type="entity-link">NgCdkTooltipModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                        <li class="link">
+                                            <a href="./components/NgCdkTooltipComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgCdkTooltipComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#directives-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                    <span class="fa fa-fw fa-code"></span>
+                                    <span>Directives</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="directives-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                        <li class="link">
+                                            <a href="./directives/NgCdkTooltipTriggerForDirective.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgCdkTooltipTriggerForDirective</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+            </ul>
+        </li>
+
+
+
+
+
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#miscellaneous-links"
+>
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="miscellaneous-links"
+>
+                    <li class="link">
+                      <a href="./miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="./miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="./coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+
+    </ul>
+
+</nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="./index.html" data-type="index-link">ng-cdk-tooltip</a>
+        </li>
+
+        <li class="divider"></li>
+
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                             href="./overview.html" 
+                            
+                             href="./overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="./index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="./modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="modules-links"
+>
+                    <li class="link">
+                        <a href="./modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AppModule-6ecdb49a-a7e7-4e45-a5dc-def9bd53e622"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AppModule-6ecdb49a-a7e7-4e45-a5dc-def9bd53e622"
+>
+                                        <li class="link">
+                                            <a href="./components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="./modules/NgCdkTooltipModule.html" data-type="entity-link">NgCdkTooltipModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                        <li class="link">
+                                            <a href="./components/NgCdkTooltipComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgCdkTooltipComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#directives-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                    <span class="fa fa-fw fa-code"></span>
+                                    <span>Directives</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="directives-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                        <li class="link">
+                                            <a href="./directives/NgCdkTooltipTriggerForDirective.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgCdkTooltipTriggerForDirective</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+            </ul>
+        </li>
+
+
+
+
+
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#miscellaneous-links"
+>
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="miscellaneous-links"
+>
+                    <li class="link">
+                      <a href="./miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="./miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="./coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+
+    </ul>
+
+</nav>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content getting-started">
+                   <div class="content-data">
+
+<h1 id="ng-cdk-tooltip">ng-cdk-tooltip</h1>
+<h2 id="installation">Installation</h2>
+<p>To install this library, run:</p>
+<pre class="line-numbers"><code class="language-bash">$ npm install ng-cdk-tooltip --save</code></pre><h2 id="set-up-for-the-tooltip">Set up for the tooltip</h2>
+<p>You need import the NgCdkTooltipModule in your Angular modules:</p>
+<pre class="line-numbers"><code class="language-typescript">import { NgCdkTooltipModule }  from &#39;ng-cdk-tooltip&#39;;
+</code></pre><p>IMPORTANT!: If you are using Angular Material (@angular/material) in your app and you are using a prebuild theme like:</p>
+<pre class="line-numbers"><code class="language-scss">&#64;import &quot;~&#64;angular/material/prebuilt-themes/indigo-pink.css&quot;;</code></pre><p>the tooltip will work correctly. Otherwise you need to add this line to your style.css:</p>
+<pre class="line-numbers"><code class="language-scss">&#64;import &quot;~&#64;angular/cdk/overlay-prebuilt.css&quot;;</code></pre><h2 id="using-the-tooltip">Using the tooltip</h2>
+<h4 id="trigger-types">Trigger types</h4>
+<p>It is possible to open the popover by hover or click event. You can adjust the trigger type by setting the stTooltipTrigger attribute to click/hover.</p>
+<p>Hover: The popover triggered by hover will close immediately after the mouse exits the trigger. In hover mode, focus on the Trigger element will display the tooltip. Focusout will hide it.</p>
+<p>Click: The popover triggered by click will stay open until the user explicitly closes the the popover.</p>
+<pre class="line-numbers"><code class="language-xml">&lt;button [ngCdkTooltipTriggerFor]=&quot;tooltipRef&quot; ngCdkTooltipTrigger=&quot;click&quot;&gt;
+  Click
+&lt;/button&gt;
+
+&lt;ng-cdk-tooltip #tooltipRef&gt;
+  Trigger by click
+&lt;/ng-cdk-tooltip&gt;</code></pre><h4 id="positioning">Positioning</h4>
+<p>It is possible to position the tooltip top/right/bottom/left to the trigger by setting the stTooltipDirection attribute to top/right/bottom/left.</p>
+<pre class="line-numbers"><code class="language-xml">&lt;button [ngCdkTooltipTriggerFor]=&quot;tooltipRef&quot;
+        ngCdkTooltipPosition=&quot;right&quot;&gt;
+  Hover
+&lt;/button&gt;
+
+&lt;ng-cdk-tooltip #tooltipRef&gt;
+  Trigger on right
+&lt;/ng-cdk-tooltip&gt;</code></pre><h4 id="fallback-strategy">Fallback strategy</h4>
+<p>The positioning of the popover follows a fallback strategy to make sure, that the component displayed correctly in the most common situations. Fallback means, that the popover tries to find a fitting position within the window.</p>
+<h4 id="initial-visible">Initial visible</h4>
+<p>Is possible to show the tooltip visible at first:</p>
+<pre class="line-numbers"><code class="language-xml">&lt;button [ngCdkTooltipTriggerFor]=&quot;tooltipRef&quot;
+        [ngCdkTooltipInitialVisible]=&quot;true&quot;&gt;
+  Hover
+&lt;/button&gt;
+
+&lt;ng-cdk-tooltip #tooltipRef&gt;
+  Initial visible
+&lt;/ng-cdk-tooltip&gt;</code></pre><h4 id="scroll-strategy">Scroll strategy</h4>
+<p>The popover implements the two strategies close/reposition to handle the behaviour of the popover when the owning container scrolls.
+The strategy close will automatically closes the popover, while reposition scrolls the popover with its origin.</p>
+<pre class="line-numbers"><code class="language-xml">&lt;button [ngCdkTooltipTriggerFor]=&quot;tooltipRef&quot;
+        ngCdkPopoverScrollStrategy=&quot;close&quot;&gt;
+        Click
+&lt;/button&gt;
+
+&lt;ng-cdk-tooltip #tooltipRef&gt;
+  Trigger close scroll
+&lt;/ng-cdk-tooltip&gt;</code></pre><h4 id="closed-event">Closed event</h4>
+<p>Is possible to subscribe to a closed event.</p>
+<pre class="line-numbers"><code class="language-xml">&lt;button [ngCdkTooltipTriggerFor]=&quot;tooltipRef&quot;&gt;
+  Click
+&lt;/button&gt;
+
+&lt;ng-cdk-tooltip (ngCdkClosed)=&quot;onClosed()&quot; #tooltipRef&gt;
+  Subscribe to close
+&lt;/ng-cdk-tooltip&gt;</code></pre><h2 id="license">License</h2>
+<p>MIT © <a href="mailto:samuanv@gmail.com">Samuel Andreo</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+        <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
+            var COMPODOC_CURRENT_PAGE_URL = 'index.html';
+        </script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+
+    </body>
+</html>

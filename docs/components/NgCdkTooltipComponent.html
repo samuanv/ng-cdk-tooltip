@@ -1,0 +1,836 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ng-cdk-tooltip</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ng-cdk-tooltip</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="../index.html" data-type="index-link">ng-cdk-tooltip</a>
+        </li>
+
+        <li class="divider"></li>
+
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="../overview.html" 
+                             href="../overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="../index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="../modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="modules-links"
+>
+                    <li class="link">
+                        <a href="../modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AppModule-6ecdb49a-a7e7-4e45-a5dc-def9bd53e622"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AppModule-6ecdb49a-a7e7-4e45-a5dc-def9bd53e622"
+>
+                                        <li class="link">
+                                            <a href="../components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="../modules/NgCdkTooltipModule.html" data-type="entity-link">NgCdkTooltipModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                        <li class="link">
+                                            <a href="../components/NgCdkTooltipComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgCdkTooltipComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#directives-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                    <span class="fa fa-fw fa-code"></span>
+                                    <span>Directives</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="directives-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                        <li class="link">
+                                            <a href="../directives/NgCdkTooltipTriggerForDirective.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgCdkTooltipTriggerForDirective</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+            </ul>
+        </li>
+
+
+
+
+
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#miscellaneous-links"
+>
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="miscellaneous-links"
+>
+                    <li class="link">
+                      <a href="../miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="../miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="../coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+
+    </ul>
+
+</nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="../index.html" data-type="index-link">ng-cdk-tooltip</a>
+        </li>
+
+        <li class="divider"></li>
+
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="../overview.html" 
+                             href="../overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="../index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="../modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="modules-links"
+>
+                    <li class="link">
+                        <a href="../modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AppModule-6ecdb49a-a7e7-4e45-a5dc-def9bd53e622"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AppModule-6ecdb49a-a7e7-4e45-a5dc-def9bd53e622"
+>
+                                        <li class="link">
+                                            <a href="../components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="../modules/NgCdkTooltipModule.html" data-type="entity-link">NgCdkTooltipModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                        <li class="link">
+                                            <a href="../components/NgCdkTooltipComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgCdkTooltipComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#directives-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                    <span class="fa fa-fw fa-code"></span>
+                                    <span>Directives</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="directives-links-module-NgCdkTooltipModule-1577b0da-23e2-4770-b98e-654fb1d31404"
+>
+                                        <li class="link">
+                                            <a href="../directives/NgCdkTooltipTriggerForDirective.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgCdkTooltipTriggerForDirective</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+            </ul>
+        </li>
+
+
+
+
+
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#miscellaneous-links"
+>
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="miscellaneous-links"
+>
+                    <li class="link">
+                      <a href="../miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="../miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="../coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+
+    </ul>
+
+</nav>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>NgCdkTooltipComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+
+    <li>
+        <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+    </li>
+    <li>
+        <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/tooltip.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnDestroy" target="_blank" >OnDestroy</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>ng-cdk-tooltip</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>tooltip.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./tooltip.component.html</code></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#id">id</a>
+                            </li>
+                            <li>
+                                <a href="#showCloseButton">showCloseButton</a>
+                            </li>
+                            <li>
+                                <a href="#templateRef">templateRef</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#closeTooltip">closeTooltip</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnDestroy">ngOnDestroy</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngCdkClosed">ngCdkClosed</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor()</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/tooltip.component.ts:24</a></div>
+                            </td>
+                        </tr>
+
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-2">
+                        <a name="ngCdkClosed"></a>
+                        <code>ngCdkClosed</code>
+                    </td>
+                    <td class="col-md-10">
+                        <em><code>$event</code> type:</em>    <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/tooltip.component.ts:22</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+        <h3 id="methods">
+            Methods
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="closeTooltip"></a>
+                        <span class="name">
+                            <b>
+                            closeTooltip
+                            </b>
+                            <a href="#closeTooltip"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>closeTooltip()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/tooltip.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ngOnDestroy"></a>
+                        <span class="name">
+                            <b>
+                            ngOnDestroy
+                            </b>
+                            <a href="#ngOnDestroy"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>ngOnDestroy()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/tooltip.component.ts:28</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="id"></a>
+                        <span class="name">
+                            <b>
+                            id
+                            </b>
+                            <a href="#id"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>id:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank" >String</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank" >String</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/tooltip.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showCloseButton"></a>
+                        <span class="name">
+                            <b>
+                            showCloseButton
+                            </b>
+                            <a href="#showCloseButton"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>showCloseButton:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/tooltip.component.ts:24</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="templateRef"></a>
+                        <span class="name">
+                            <b>
+                            templateRef
+                            </b>
+                            <a href="#templateRef"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>templateRef:     <code>TemplateRef&lt;any&gt;</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>TemplateRef&lt;any&gt;</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Decorators : </i><code>ViewChild</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/tooltip.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, EventEmitter, OnDestroy, Output, TemplateRef, ViewChild } from &#x27;@angular/core&#x27;;
+import { trigger, state, style, animate, transition } from &#x27;@angular/animations&#x27;;
+@Component({
+  selector: &#x27;ng-cdk-tooltip&#x27;,
+  templateUrl: &#x27;./tooltip.component.html&#x27;,
+  styleUrls: [&#x27;./tooltip.component.scss&#x27;],
+  animations: [
+    trigger(&#x27;state&#x27;, [
+      state(&#x27;initial, void, hidden&#x27;, style({transform: &#x27;scale(0)&#x27;})),
+      state(&#x27;visible&#x27;, style({transform: &#x27;scale(1)&#x27;})),
+      transition(&#x27;* &#x3D;&gt; visible&#x27;, animate(&#x27;150ms cubic-bezier(0.0, 0.0, 0.2, 1)&#x27;)),
+      transition(&#x27;* &#x3D;&gt; hidden&#x27;, animate(&#x27;150ms cubic-bezier(0.4, 0.0, 1, 1)&#x27;)),
+    ])
+  ],
+})
+export class NgCdkTooltipComponent implements OnDestroy {
+  @ViewChild(TemplateRef)
+  templateRef: TemplateRef&lt;any&gt;;
+
+  id: String;
+  @Output(&#x27;ngCdkClosed&#x27;)
+  closed &#x3D; new EventEmitter&lt;void&gt;();
+
+  showCloseButton &#x3D; false;
+
+  constructor() { }
+
+  ngOnDestroy() {
+    this.closed.emit();
+    this.closed.complete();
+  }
+
+  closeTooltip() {
+    this.closed.emit();
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;ng-template&gt;
+  &lt;div [@state]&#x3D;&quot;&#x27;visible&#x27;&quot; role&#x3D;&quot;tooltip&quot; aria-hidden&#x3D;&quot;false&quot;&gt;
+    &lt;div class&#x3D;&quot;tooltip_content&quot;&gt;
+      &lt;span aria-hidden&#x3D;&quot;true&quot; class&#x3D;&quot;tooltip_close icon_close&quot; (click)&#x3D;&quot;closeTooltip()&quot; *ngIf&#x3D;&quot;showCloseButton&quot;&gt;
+        &lt;svg viewPort&#x3D;&quot;0 0 12 12&quot; version&#x3D;&quot;1.1&quot; xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot;&gt;
+          &lt;line x1&#x3D;&quot;1&quot; y1&#x3D;&quot;11&quot; x2&#x3D;&quot;11&quot; y2&#x3D;&quot;1&quot; stroke&#x3D;&quot;grey&quot; stroke-width&#x3D;&quot;2&quot; /&gt;
+          &lt;line x1&#x3D;&quot;1&quot; y1&#x3D;&quot;1&quot; x2&#x3D;&quot;11&quot; y2&#x3D;&quot;11&quot; stroke&#x3D;&quot;grey&quot; stroke-width&#x3D;&quot;2&quot; /&gt;
+        &lt;/svg&gt;
+      &lt;/span&gt;
+      &lt;span [id]&#x3D;&quot;id&quot;&gt;
+        &lt;ng-content&gt;&lt;/ng-content&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/ng-template&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><ng-template>  <div [@state]="\'visible\'" role="tooltip" aria-hidden="false">    <div class="tooltip_content">      <span aria-hidden="true" class="tooltip_close icon_close" (click)="closeTooltip()" *ngIf="showCloseButton">        <svg viewPort="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg">          <line x1="1" y1="11" x2="11" y2="1" stroke="grey" stroke-width="2" />          <line x1="1" y1="1" x2="11" y2="11" stroke="grey" stroke-width="2" />        </svg>      </span>      <span [id]="id">        <ng-content></ng-content>      </span>    </div>  </div></ng-template></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app'},{'name': 'NgCdkTooltipComponent', 'selector': 'ng-cdk-tooltip'}];
+    var DIRECTIVES = [{'name': 'NgCdkTooltipTriggerForDirective', 'selector': '[ngCdkTooltipTriggerFor]'}];
+    var ACTUAL_COMPONENT = {'name': 'NgCdkTooltipComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+        <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_URL = 'NgCdkTooltipComponent.html';
+        </script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+
+    </body>
+</html>
